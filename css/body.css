@@ -79,12 +79,93 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60rem;
+    width: 40rem;
     box-shadow: -10px -10px rgb(145, 126, 135);
     background-image: linear-gradient(to left, rgba(24, 8, 8, 0.201) , rgba(250, 240, 240, 0.982))
 }
-.product__photo > figure>img{
-    height: 25rem;
-    width: 35rem;
+.product__photo{
+    background-image: url(/assets/easter6.jpeg), url(/assets/easter7.jpeg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    width: 60rem;
+    height: 30rem;
+}
+
+/*  */
+.product__photo__textOne{
+    font-family: var(--fontOne);
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.product__photo__textTwo{
+    font-family: var(--fontOne);
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.product__photo__textThree{
+    color: rgb(70, 69, 69);
+    font-size: 3rem;
+    padding-top: 1rem;
+    width: 45rem;
+}
+
+.productPurchase__item__price{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+
+}
+.productPurchase__item__descrip{
+    background-image: linear-gradient(to left, rgba(24, 8, 8, 0.201) , rgba(250, 240, 240, 0.982));
+    margin: 0.1rem;
+}
+.productPurchase__item__add--sign{
+    border-radius: 50%;      
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+}
+.productPurchase__item__add--text{
+    padding-right: 0.1rem;
+ 
+}
+.productPurchase__item__add{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.productPurchase__item{
+    border: 0.1rem solid gray;   
     margin: 1rem;
+    width: 15rem;
+}
+
+.productPurchase__item:nth-child(odd){
+    box-shadow: -0.5rem -0.5rem rgb(145, 126, 135);
+}
+
+.productPurchase__item:nth-child(even){
+    box-shadow: 0.5rem 0.5rem rgb(145, 126, 135);
+}
+.productPurchase__item>figure{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.productPurchase__item__description{
+    font-weight: bold;
+    text-align: center;
+}
+.productPurchase{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
