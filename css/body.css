@@ -1,11 +1,3 @@
-.productPhotos{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
-    flex-wrap: wrap;
-}
-
 .productPhotos__text{
     padding: 2rem;
     margin: 1rem;
@@ -13,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 35rem;
+
 }
 .productPhotos__text > span{
     color: blue;
@@ -88,12 +80,10 @@ padding-bottom: 1rem;
 
     }
 .product__text > h2{
-        font-size: 2rem;
+
         padding-bottom: 1rem;
     }
-.product__text>p{
-    font-size: 1.5rem;
-}
+
 .productAbout__photo > figure>img{
     height: 25rem;
     width: 35rem;
@@ -206,4 +196,81 @@ padding-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media screen and (min-width: 0px){
+
+/* First Section */
+.productPhotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .productPhotos__text{
+        width: 25rem;
+    }
+    .productPhotos__text > span{
+        font-size: 0.8rem;
+    }
+    .productPhotos__text > h2{
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+    }
+    .productPhotos__text > p{
+        font-size: 1.2rem;
+        padding-top: 0.5rem;
+    }
+
+
+/* Third Section */
+    .product__text > span{
+        font-size: 1rem;
+    
+        }
+    .product__text > h2{
+            /* font-size: 1rem; */
+        }
+    .product__text>p{
+        /* font-size: 1rem; */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    
+    /* First Section */
+    .productPhotos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    
+    .productPhotos__text{
+        width: 45rem;
+        height: 28rem;
+    }
+    .productPhotos__text > span{
+        font-size: 1.4rem;
+    }
+    .productPhotos__text > h2{
+        font-size: 2.4rem;
+    }
+
+    .productPhotos__text > p{
+        font-size: 1.9rem;
+    }
+
+
+    /* Third Section */
+    .product__text > span{
+        font-size: 0.5rem;
+    
+        }
+    .product__text > h2{
+            font-size: 1.5rem;
+        }
+    .product__text>p{
+        font-size: 1rem;
+    }
 }

@@ -10,7 +10,7 @@ footer{
 .form{
     display: flex;
     flex-direction: column;
-    width: 20rem;
+    
     
 }
 .form>button[type="submit"]{
@@ -44,7 +44,7 @@ footer{
 
 }
 .company__info__address--logo > figure > img{
-    width: 6rem;
+    
     border-radius: 50%;
     margin: 0.3rem;
     padding: 0 0.5rem 0 0.5rem;
@@ -73,7 +73,7 @@ footer{
     
 }
 .company__info__socialmedia--text{
-    font-size: 1.3rem;
+   
     color: rgb(94, 93, 93);
     font-weight: 900;
 }
@@ -85,3 +85,34 @@ footer{
     margin: 0.2rem;
 }
 
+@media screen and (min-width: 320px){
+    .company__info__address--text{
+        font-size: 1rem;
+    }
+    .form{
+       width: 18rem;
+    }
+    
+    .contact-form>h3{
+        text-align: center;
+    }
+    .company__info__address--logo > figure>img{
+        width: 5rem;
+    }
+    .company__info__socialmedia--text{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .company__info__address--logo > figure > img{
+        width: 7rem;
+    }
+    .company__info__socialmedia--text{
+        font-size: 1.3rem;
+    }
+    .form{
+        width: 20rem;
+        
+    }
+}
