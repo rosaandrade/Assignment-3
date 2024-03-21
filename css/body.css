@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
+    flex-wrap: wrap;
 }
 
 .productPhotos__text{
@@ -12,6 +13,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 35rem;
 }
 .productPhotos__text > span{
     color: blue;
@@ -46,7 +48,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
-    
+     
 }
 .productAbout__text{
     padding: 2rem;
@@ -55,11 +57,43 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 60rem;
+    /* width: 60rem; */
     box-shadow: 10px 10px rgb(145, 126, 135);
     background-image: linear-gradient(to right, rgba(24, 8, 8, 0.201) , rgba(250, 240, 240, 0.982))
 }
+.productAbout__text > span{
+font-size: 1rem;
+text-transform: uppercase;
+color: brown;
+font-weight: 900;
+letter-spacing: 0.5rem;
+padding-bottom: 1rem;
 
+}
+.productAbout__text > h2{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.productAbout__text>p{
+    font-size: 1.5rem;
+}
+.product__text > span{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: brown;
+    font-weight: 900;
+    letter-spacing: 0.5rem;
+    padding-bottom: 1rem;
+
+    }
+.product__text > h2{
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+.product__text>p{
+    font-size: 1.5rem;
+}
 .productAbout__photo > figure>img{
     height: 25rem;
     width: 35rem;
@@ -70,6 +104,7 @@
     flex-direction: row;
     justify-content: center;
     padding: 1rem;
+
     
 }
 .product__text{
@@ -109,11 +144,14 @@
 
 .product__photo__textThree{
     color: rgb(70, 69, 69);
-    font-size: 3rem;
-    padding-top: 1rem;
-    width: 45rem;
+    font-size: 2rem;
+    padding: 1rem 4rem 1rem 1rem;
+    width: 35rem;
 }
-
+.productPurchase__item > figure > img{
+    width: 10rem;
+    /* height: 5rem; */
+}
 .productPurchase__item__price{
     align-items: center;
     display: flex;
