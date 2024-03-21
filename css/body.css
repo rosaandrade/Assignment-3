@@ -26,7 +26,6 @@
 }
 .productPhotos__photos{
     max-width: 45%;
-    column-count: 6;
     column-gap: 1rem;
     margin: 1rem;
 }
@@ -221,6 +220,9 @@ padding-bottom: 1rem;
         font-size: 1.2rem;
         padding-top: 0.5rem;
     }
+    .productPhotos__photos{
+        column-count: 4;
+    }
 
 
 /* Third Section */
@@ -261,6 +263,9 @@ padding-bottom: 1rem;
         font-size: 1.9rem;
     }
 
+    .productPhotos__photos{
+        column-count: 6;
+    }
 
     /* Third Section */
     .product__text > span{
