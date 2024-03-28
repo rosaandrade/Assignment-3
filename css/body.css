@@ -324,8 +324,7 @@ letter-spacing: 0.5rem;
     }
     /* Third Section */
     .product__text > span{
-        font-size: 1.rem;
-    
+        font-size: 1rem;
         }
     .product__text > h2{
             font-size: 2.1rem;
@@ -373,7 +372,6 @@ letter-spacing: 0.5rem;
         text-align: center;
         
         font-size: 1.5rem;
-        padding: 1rem 4rem 1rem 1rem;
-        
+        padding: 1rem 4rem 1rem 1rem;       
 }
 }
