@@ -77,54 +77,39 @@ letter-spacing: 0.5rem;
     }
 
 
-.product{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 1rem;
 
-    
-}
 .product__text{
     padding: 2rem;
     margin: 1rem;
     background-color: rgb(232, 235, 235);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 40rem;
+
     box-shadow: -10px -10px rgb(145, 126, 135);
     background-image: linear-gradient(to left, rgba(24, 8, 8, 0.201) , rgba(250, 240, 240, 0.982))
 }
 .product__photo{
-    background-image: url(/assets/easter6.jpeg), url(/assets/easter7.jpeg);
+    background-image: url(/assets/easter4.png), url(/assets/easter7.jpeg);
     background-position: right bottom, left top;
     background-repeat: no-repeat, repeat;
     padding: 15px;
-    width: 60rem;
-    height: 30rem;
+
 }
 
 /*  */
 .product__photo__textOne{
     font-family: var(--fontOne);
-    font-size: 5rem;
-    font-weight: 900;
-    text-align: center;
+
 }
 
 .product__photo__textTwo{
     font-family: var(--fontOne);
-    font-size: 3rem;
-    font-weight: 900;
-    text-align: center;
+
 }
 
 .product__photo__textThree{
     color: rgb(70, 69, 69);
-    font-size: 2rem;
-    padding: 1rem 4rem 1rem 1rem;
-    width: 35rem;
+
+
+
 }
 .productPurchase__item > figure > img{
     width: 10rem;
@@ -235,15 +220,43 @@ letter-spacing: 0.5rem;
     
     /* --------------------------------------------------------- */
     /* Third Section */
+
+    .product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .product__text{
+        width: 95%;
+    }
+
+    .product__photo{
+        width: 95%;
+        display: flex;
+        height: 18rem;
+        flex-direction: column;
+    }
     .product__text > span{
         font-size: 1rem;
     
         }
     .product__text > h2{
-            /* font-size: 1rem; */
+        font-size: 1rem;
         }
     .product__text>p{
-        /* font-size: 1rem; */
+        font-size: 1rem;
+    }
+
+    .product__photo__textOne{
+        font-size: 3rem;
+    }
+    .product__photo__textTwo{
+        font-size: 2rem;
+    }
+    .product__photo__textThree{
+        font-size: 1.5rem;
+        width: 100%;
     }
 }
 
@@ -311,13 +324,56 @@ letter-spacing: 0.5rem;
     }
     /* Third Section */
     .product__text > span{
-        font-size: 0.5rem;
+        font-size: 1.rem;
     
         }
     .product__text > h2{
-            font-size: 1.5rem;
+            font-size: 2.1rem;
         }
     .product__text>p{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
+    .product__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 20rem;
+    }
+    .product{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1rem;
+            
+    }
+    .product__photo{
+   
+        width: 55%;
+        height: 20rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product__photo__textOne{
+ 
+        font-size: 3rem;
+
+        text-align: center;
+    }
+    
+    .product__photo__textTwo{
+
+        font-size: 2rem;
+
+        text-align: center;
+    }
+    
+    .product__photo__textThree{
+        text-align: center;
+        
+        font-size: 1.5rem;
+        padding: 1rem 4rem 1rem 1rem;
+        
+}
 }
